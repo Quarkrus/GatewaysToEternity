@@ -1,7 +1,10 @@
 # Gateways to Eternity [![](http://cf.way2muchnoise.eu/gateways-to-eternity.svg)](https://www.curseforge.com/minecraft/mc-mods/gateways-to-eternity) [![](http://cf.way2muchnoise.eu/versions/gateways-to-eternity.svg)](https://www.curseforge.com/minecraft/mc-mods/gateways-to-eternity)
 
 ## About
-Gateways to Eternity is a Minecraft mod where you open giant portals which pour forth hordes of enemies in a series of waves, each wave stronger than the last.  Completion of a wave will yield rewards, and completing the entire gateway will yield a completion bonus.
+Gateways to Eternity is a Minecraft mod that allows creating data-driven gameplay events called Gateways.  
+
+Gateways are a wave-based combat event. For each wave, a set group of enemies will spawn; progressing to the next wave requires killing all enemies before the timer elapses.  
+Completion of waves grants rewards to the player(s), and completion of the entire Gateway can provide additional benefits.  
 
 See the [CurseForge Page](https://www.curseforge.com/minecraft/mc-mods/gateways-to-eterrnity) for the full description.
 
