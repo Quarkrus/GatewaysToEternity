@@ -1,3 +1,6 @@
+## 4.2.5
+* Made gate pearls report the creator modid instead of always reporting `gateways`.
+
 ## 4.2.4
 * Fixed the way that spawn algorithms operate when in a void world.
 
