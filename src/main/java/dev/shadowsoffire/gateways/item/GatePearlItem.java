@@ -3,6 +3,8 @@ package dev.shadowsoffire.gateways.item;
 import java.util.Comparator;
 import java.util.List;
 
+import org.jetbrains.annotations.Nullable;
+
 import dev.shadowsoffire.gateways.entity.GatewayEntity;
 import dev.shadowsoffire.gateways.gate.Gateway;
 import dev.shadowsoffire.gateways.gate.GatewayRegistry;
@@ -100,6 +102,16 @@ public class GatePearlItem extends Item implements ITabFiller {
         else if (FMLEnvironment.dist.isClient()) {
             holder.get().appendPearlTooltip(level, tooltip, flag);
         }
+    }
+
+    @Override
+    @Nullable
+    public String getCreatorModId(ItemStack stack) {
+        DynamicHolder<Gateway> gate = getGate(stack);
+        if (gate.isBound()) {
+            return gate.getId().getNamespace();
+        }
+        return super.getCreatorModId(stack);
     }
 
 }
